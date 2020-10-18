@@ -1,0 +1,50 @@
+#hour,#min,#sec,#day,#hour2,#min2,#sec2,#day2 {
+  float:left;
+  padding:15px 3px;
+  width:70px;
+  height:75px;
+  position:relative;
+  display:block;
+  font-size: 3em;
+}
+#hour2,#min2,#sec2,#day2{
+  padding: 4px 3px;
+}
+      
+#timer_wrap p,#timer_wrap2 p {
+  margin:0px;
+  padding:0px;
+  width:24px;
+  height:55px;
+  float:left;
+  color:#ffffff;
+  font-weight:bold;
+  position:absolute;
+  font-family: open_sans_bold, sans-serif;
+}
+#sec1,#min1,#hour1,#day1,#sec1_2,#min1_2,#hour1_2,#day1_2 {
+  margin-left:31px !important;
+}
+#timer_wrap,#timer_wrap2 {
+  height:auto;
+  width:100%;
+  
+}   
+#clock,#clock2 {
+  position:absolute;
+}
+#razd,#razd2 {
+  float:left;
+  color:#fff;
+  font-size:3em;
+  margin:0px 3px 0px 3px;
+  width: auto !important;
+  font-family: open_sans_bold, sans-serif;  
+}
+#stop,#stop2 {
+  color:white;
+  font-size:2em;
+  margin:15px 10px 10px 25px;
+  position:absolute;
+}
+#day, #hour,#day2, #hour2{display: none;} 
